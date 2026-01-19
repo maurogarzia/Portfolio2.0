@@ -7,3 +7,17 @@
     flex-direction: column;
     gap: 20px;
 }
+.paragraph{
+    background-color: #1E1E1E;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+}
+.title {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+    font-weight: bolder;
+}
