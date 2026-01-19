@@ -1,0 +1,11 @@
+.containerPrincipal{
+    background-color: #333333;
+    min-width: 5vw;
+    height: 95vh;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    gap: 20px;
+}

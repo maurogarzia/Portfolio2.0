@@ -1,0 +1,12 @@
+.containerPrincipal{
+    display: flex;
+    max-width: 100vw;
+    max-height: 95vh;
+}
+.containerContent{
+    width: 100%;
+    height: 95vh;
+}
+.subContent{
+    height: 90vh;
+}
