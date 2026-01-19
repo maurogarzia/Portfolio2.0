@@ -6,6 +6,7 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+    overflow-y: auto;
 }
 .paragraph{
     background-color: #1E1E1E;
@@ -24,5 +25,33 @@
     font-weight: bold;
     padding: 10px;
     font-weight: bolder;
-    
+}
+.icons{
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.code{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    padding: 5px;
+    cursor: pointer;
+    color: rgb(51, 108, 240);
+    font-weight: bolder;
+    text-decoration: none;
+}
+.code i {
+    font-size: 20px;
+}
+.view{
+    color: green;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    padding: 5px;
+    cursor: pointer;
+    text-decoration: none;
 }
