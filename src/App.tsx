@@ -3,11 +3,18 @@ import AsidePrincipal from './layout/AsidePrincipal/AsidePrincipal'
 import FileAside from './layout/FileAside/FileAside'
 import FileHeader from './layout/FileHeader/FileHeader'
 import HeaderPrincipal from './layout/HeaderPrincipal/HeaderPrincipal'
+import { viewStore } from './store/view.store'
+import About from './views/About/About'
+import Contact from './views/Contact/Contact'
 import Home from './views/Home/Home'
+import Projects from './views/Projects/Projects'
+import Skills from './views/Skills/skills'
+
 
 
 function App() {
   
+  const {view} = viewStore()
 
   return (
     <>
@@ -18,7 +25,11 @@ function App() {
           <FileHeader/>
           <div className={style.subContent}>
             <FileAside/>
-            <Home/>
+            {view === 'home' && <Home/>}
+            {view === 'contact' && <Contact/>}
+            {view === 'aboutMe' && <About/>}
+            {view === 'projects' && <Projects/>}
+            {view === 'skills' && <Skills/>}
           </div>
         </div>
       </div>

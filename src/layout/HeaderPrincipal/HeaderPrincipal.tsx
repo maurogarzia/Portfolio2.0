@@ -5,7 +5,7 @@ function HeaderPrincipal() {
     return (
         <div className={style.containerPrincipal}>
             
-            <p>Protafolio de Mauro Garzia</p>
+            <h1>Protafolio de Mauro Garzia</h1>
         </div>
     )
 }
