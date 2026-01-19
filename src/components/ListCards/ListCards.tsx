@@ -1,3 +1,4 @@
+import Card from '../Card/Card'
 import style from './ListCards.module.css'
 
 interface IListCrads {
@@ -8,9 +9,7 @@ function ListCards({cards} : IListCrads) {
     return (
         <div className={style.containerCards}>
             {cards.map(card => (
-                <div className={style.card}>
-                    {card}
-                </div>
+                <Card name={card}/>
             ))}
         </div>
     )

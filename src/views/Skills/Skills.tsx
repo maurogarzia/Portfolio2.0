@@ -1,9 +1,10 @@
-import ListCards from './components/ListCards/ListCards'
+
+import ListCards from '../../components/ListCards/ListCards'
 import style from './Skills.module.css'
 
 function Skills() {
 
-  const frontend = ['React', 'Next.js', 'Typescript', 'Javascript', 'HTML5', 'CSS3', 'Vite', 'Responsive Design']
+  const frontend = ['React', 'Next.js', 'Typescript', 'Javascript', 'HTML5', 'CSS3', 'Vite', 'Responsive Design', 'Zustand']
   const backend = ['Springboot', 'Node.js', 'Mongoose', 'Express', 'Java', 'Typescript', 'MySQL', 'PostgreSQL', 'MongoDB', 'API REST', 'Supabase']
   const tools = ['Git & GitHub', 'Postman', 'Vercel', 'Render']
 

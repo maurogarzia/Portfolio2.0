@@ -1,11 +1,8 @@
-.containerCards{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-}
 .card{
     background-color: #313131;
     padding: 5px;
     border-radius: 5px;
     color: aquamarine;
+    min-width: 5vw;
+    text-align: center;
 }
