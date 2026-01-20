@@ -1,3 +1,4 @@
+
 import { selectStore } from '../../../../store/select.store'
 import { viewStore } from '../../../../store/view.store'
 import style from './CardHeader.module.css'
@@ -10,11 +11,13 @@ interface ICardHeader{
 
 function CardHeader({name, span, color} : ICardHeader) {
 
-    const {setView} = viewStore()
+    const {view,setView} = viewStore()
     const {deleteCard} = selectStore()
 
+    const isActive = view === name
+
     return (
-        <div onClick={() => setView(name)} className={style.containerPrincipal}>
+        <div onClick={() => setView(name)} className={style.containerPrincipal} style={{'backgroundColor': isActive ? 'gray' : 'transparent'}}>
             <div className={style.item}>
                 <span className="material-symbols-outlined" style={{'color': `${color}`}}>{span}</span>
                 <p>{name}</p>
