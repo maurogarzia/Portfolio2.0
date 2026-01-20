@@ -9,7 +9,7 @@
 }
 .paragraph{
     background-color: #1E1E1E;
-    padding: 10px;
+    padding: 15px;
     border-radius: 10px;
     color: white;
     border: 1px solid rgb(71, 71, 71);
@@ -29,12 +29,14 @@
 .button{
     background-color: rgb(20, 20, 240);
     color: white;
-    padding: 10px;
+    padding: 5px;
     border: none;
-    font-size: 20px;
+    font-size: 15px;
     border-radius: 5px;
     cursor: pointer;
     font-weight: bolder;
+    text-decoration: none;
+    
 }
 .button:hover{
     background-color: white;

@@ -38,7 +38,12 @@ function About() {
             <div className={style.paragraph}>
                 <p>Si queres conocer mas sobre mi experiencia y formación:</p>
                 <br />
-                <button className={style.button}>Descargar CV</button>
+                <a className={style.button}
+                    href='/Curriculum_Mauro_Garzia.pdf'
+                    download='Curriculum_Mauro_Garzia.pdf'
+                >
+                    Descargar CV
+                </a>
             </div>
 
         </div>
