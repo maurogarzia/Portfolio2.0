@@ -6,6 +6,6 @@ interface IViewStore {
 }
 
 export const viewStore = create<IViewStore>((set) => ({
-    view: "home",
+    view: "emptySelected",
     setView: (option) => set({view: option})
 }))
