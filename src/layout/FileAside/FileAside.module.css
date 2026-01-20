@@ -20,3 +20,10 @@
 .file:hover{
     background-color: #313131
 }
+@media (max-width: 800px) {
+    .containerPrincipal{
+        width: 100%;
+        height: fit-content;
+        display: flex;
+    }
+}

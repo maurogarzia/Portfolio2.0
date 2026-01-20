@@ -8,6 +8,18 @@
     height: 95vh;
 }
 .subContent{
-    height: 90vh;
+    height: 87vh;
     display: flex;
+}
+
+@media (max-width: 800px) {
+    .containerPrincipal{
+        display: flex;
+        flex-direction: column;
+    }
+    .subContent{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
 }

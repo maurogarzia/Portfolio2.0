@@ -49,6 +49,7 @@
     flex-direction: column;
     color: white;
     border: 1px solid rgb(71, 71, 71);
+    overflow-y: auto;
 }
 .title{
     font-size: 25px;
@@ -58,4 +59,21 @@
 .paragraph{
     padding: 10px;
     font-size: 15px;
+}
+
+@media (max-width: 800px){
+    .personalData{
+        display: flex;
+        flex-direction: column;
+    }
+    .image{
+        width: 100%;
+        padding: 10px;
+    }
+    .image img{
+        width: 50vw;
+    }
+    .data{
+        width: 100%;
+    }
 }

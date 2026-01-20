@@ -7,3 +7,12 @@
     color: white;
     font-size: 8px;
 }
+@media (max-width: 800px) {
+    .containerPrincipal{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        
+    }
+}

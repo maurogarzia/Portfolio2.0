@@ -4,7 +4,6 @@ function HeaderPrincipal() {
 
     return (
         <div className={style.containerPrincipal}>
-            
             <h1>Protafolio de Mauro Garzia</h1>
         </div>
     )

@@ -3,12 +3,26 @@
     width: 100%;
     color: white;
     padding: 10px;
-    height: 5vh;
+    height: 8vh;
     display: flex;
-    gap: 90px;
+}
+.containerPrincipal p{
+    
+    width: 12vw;
 }
 .tabs{
     display: flex;
     width: 100%;
-    
+    overflow-x: auto;
+}
+
+@media (max-width: 800px) {
+    .containerPrincipal{
+        display: flex;
+        flex-direction: column;
+    }
+    .containerPrincipal p{
+        width: 100%;
+        text-align: center;
+    }
 }

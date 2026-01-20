@@ -9,3 +9,15 @@
     color: white;
     gap: 20px;
 }
+@media (max-width: 800px) {
+    .containerPrincipal{
+        display: flex;
+        flex-direction: row;
+    }
+    .containerPrincipal span{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
