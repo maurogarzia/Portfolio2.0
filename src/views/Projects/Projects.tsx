@@ -58,6 +58,11 @@ function Projects() {
             <i className="fab fa-github"></i>
             <p className={style.code}>Código</p>
           </a>
+
+          <a className={style.view} href="https://front-end-todo-food-with-next-js.vercel.app/" target='blank'>
+            <span className="material-symbols-outlined">visibility</span>
+            <p className={style.view}>Ver</p>
+          </a>
         </div>
       </div>
 
