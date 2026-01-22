@@ -81,6 +81,11 @@ function Projects() {
             <span className="material-symbols-outlined">visibility</span>
             <p className={style.view}>Ver</p>
           </a>
+
+          <a className={style.docs} href="/DocumentaciónDeUsoFinanceDashboard.pdf" download='DocumentacionDeUsoFinanceDashboard.pdf'>
+            <span className="material-symbols-outlined">docs</span>
+            <p>Descargar documentación de uso</p>
+          </a>
         </div>
       </div>
 

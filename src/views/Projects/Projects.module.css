@@ -55,3 +55,16 @@
     cursor: pointer;
     text-decoration: none;
 }
+.docs{
+    color: red;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    padding: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.docs span{
+    font-size: 20px;
+}
