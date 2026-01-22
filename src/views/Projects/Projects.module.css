@@ -31,6 +31,7 @@
     display: flex;
     gap: 20px;
     align-items: center;
+    width: 100%;
 }
 .code{
     display: flex;
@@ -67,4 +68,22 @@
 }
 .docs span{
     font-size: 20px;
+}
+
+@media (max-width: 800px) {
+    .icons{
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+    }
+    .view{
+        padding: 0;
+    }
+    .code{
+        padding: 0;
+    }
+    .docs{
+        padding: 0;
+    }
 }
