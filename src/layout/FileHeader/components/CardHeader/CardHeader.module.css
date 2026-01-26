@@ -13,7 +13,20 @@
     font-size: 15px;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    padding: 10px;
 }
 .containerPrincipal span{
     font-size: 15px;
+}
+.containerClose{
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerClose:hover{
+    background-color: red;
+    color: white;
+    transition: 02.s ease;
 }

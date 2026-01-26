@@ -17,12 +17,14 @@ function CardHeader({name, span, color} : ICardHeader) {
     const isActive = view === name
 
     return (
-        <div onClick={() => setView(name)} className={style.containerPrincipal} style={{'backgroundColor': isActive ? '#4d4a4a' : 'transparent'}}>
-            <div className={style.item}>
+        <div className={style.containerPrincipal} style={{'backgroundColor': isActive ? '#4d4a4a' : 'transparent'}}>
+            <div className={style.item} onClick={() => setView(name)} >
                 <span className="material-symbols-outlined" style={{'color': `${color}`}}>{span}</span>
                 <p>{name}</p>
             </div>
-            <span className="material-symbols-outlined" onClick={() => deleteCard(name)}>close</span>
+            <div className={style.containerClose} onClick={() => deleteCard(name)}>
+                <span className="material-symbols-outlined">close</span>
+            </div>
         </div>
     )
 }

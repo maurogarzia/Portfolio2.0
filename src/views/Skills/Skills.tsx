@@ -5,8 +5,8 @@ import style from './Skills.module.css'
 function Skills() {
 
   const frontend = ['React', 'Next.js', 'Typescript', 'Javascript', 'HTML5', 'CSS3', 'Vite', 'Responsive Design', 'Zustand']
-  const backend = ['Springboot', 'Node.js', 'Mongoose', 'Express', 'Java', 'Typescript', 'MySQL', 'PostgreSQL', 'MongoDB', 'API REST', 'Supabase']
-  const tools = ['Git & GitHub', 'Postman', 'Vercel', 'Render']
+  const backend = ['Springboot', 'Node.js', 'Mongoose', 'Express', 'Java', 'Typescript', 'MySQL', 'PostgreSQL', 'MongoDB', 'API REST', 'OAuth 2.0']
+  const tools = ['Git & GitHub', 'Postman', 'Vercel', 'Render', 'Terminal', 'Figma', 'Docker', 'Supabase', "MongoAtlas", 'MongoDB Compass']
 
   return (
     <div className={style.containerPrincipal}>
