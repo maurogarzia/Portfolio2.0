@@ -13,8 +13,9 @@
     font-size: 15px;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 10vw;
     padding: 10px;
+    max-height: 5vh;
 }
 .containerPrincipal span{
     font-size: 15px;
@@ -29,4 +30,9 @@
     background-color: red;
     color: white;
     transition: 02.s ease;
+}
+@media (max-width: 800px) {
+    .item{
+        width: 100%;
+    }
 }

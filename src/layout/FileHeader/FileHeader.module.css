@@ -1,25 +1,26 @@
 .containerPrincipal{
     background-color: #1E1E1E;
-    width: 100%;
+    max-width: 95vw;
     color: white;
     padding: 10px;
-    height: 8vh;
     display: flex;
 }
 .containerPrincipal p{
-    
     width: 12vw;
 }
 .tabs{
     display: flex;
     width: 100%;
     overflow-x: auto;
+    max-height: 5vh;
 }
 
 @media (max-width: 800px) {
     .containerPrincipal{
         display: flex;
         flex-direction: column;
+        min-width: 100%;
+        
     }
     .containerPrincipal p{
         width: 100%;
