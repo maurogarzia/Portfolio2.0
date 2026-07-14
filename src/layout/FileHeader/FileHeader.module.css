@@ -1,6 +1,7 @@
 .containerPrincipal{
     background-color: #1E1E1E;
     max-width: 95vw;
+    height: 8vh;
     color: white;
     padding: 10px;
     display: flex;
